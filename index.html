@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Main">
+        <button id="Credits" class="Credits" onclick="showTab('tab1')" >Credits</button>
+        <button id="Home" class="Home" onclick="showTab('tab2')" >Home</button>
+        <button id="Download" class="Download" onclick="showTab('tab3')" >Download</button>
+        <button id="Features" class="Features" onclick="showTab('tab4')" >Features</button>
+
+        <div id="tab1" class="tab-content active">
+            <h2>Made By Kylt</h2>
+            <p>Subscribe to yt</p>
+            <p>Join Discord</p>
+        </div>
+
+        <div id="tab2" class="tab-content">
+            <h2>Tab 2 Content</h2>
+            <p>This is the content for Tab 2.</p>
+        </div>
+
+        <div id="tab3" class="tab-content">
+            <h2>Tab 3 Content</h2>
+            <p>This is the content for Tab 3.</p>
+        </div>
+
+        <div id="tab4" class="tab-content">
+            <h2>Features</h2>
+            <p>✅Safe.</p>
+            <p>🚀reliable.</p>
+            <p>💲Free.</p>
+            <p>🏃‍♀️Easy To Use.</p>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+<style>
+    .tab-content {
+    display: none;
+        }
+
+    .active {
+    display: block;
+    }
+
+    body{
+        background-color: #202020;
+    }
+</style>
+</html>
