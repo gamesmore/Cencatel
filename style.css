@@ -74,3 +74,41 @@ button {
     font-family: 'Times New Roman';
 }
 
+#tab3 button { 
+    position: relative;
+    left: 545px;
+    top: 320px;
+    color: white;
+    background-color: #464646; 
+}
+
+#tab2 h2{ 
+    position: relative;
+    left: 530px;
+    top: 170px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+#tab2 p{
+    position: relative;
+    left: 370px;
+    top: 170px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+.tab-content {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.active {
+    display: block;
+    opacity: 1;
+}
+
+
