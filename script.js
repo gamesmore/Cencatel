@@ -31,5 +31,8 @@ function downloadImage(imageUrl) {
 }
 
 document.getElementById("DownloadExecutor").addEventListener("click", function() {
-     downloadImage("https://www.dropbox.com/scl/fi/ief2yh7fchl5f34zm3lcb/Cencatal.zip?rlkey=ww32txqjscfmzotgx7z2o75wo&st=fa9vbwdz&dl=1");
+     downloadImage("https://www.dropbox.com/scl/fi/ief2yh7fchl5f34zm3lcb/Cencatal.zip?rlkey=ww32txqjscfmzotgx7z2o75wo&st=p501vvg5&dl=1");
+});
+document.getElementById("DownloadEpHacks").addEventListener("click", function() {
+    downloadImage("https://www.dropbox.com/scl/fi/6axouedwh5jh45cm21lp1/EPHacks.txt?rlkey=xr59rrrzv704ggtavc7w32tff&st=wmqhqxht&dl=1");
 });
